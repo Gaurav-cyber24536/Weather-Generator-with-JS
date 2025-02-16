@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Yeseva+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lexend", serif;
+}
+
+html body{
+    width: 100%;
+    height: 100vh;
+    background: rgb(193,189,185);
+    background: linear-gradient(90deg, rgba(193,189,185,    1) 0%, rgba(201,255,88,1) 33%, rgba(111,240,199,1)     69%, rgba(252,255,238,1) 100%);
+}
+.card{
+   width: 90%;
+   max-width: 470px;
+   background: rgb(78, 200, 66);
+   color: #fff;
+   margin: 100px auto 0;
+   border-radius: 20px;
+   padding: 40px 35px;
+   text-align: center;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card .search{
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.card .search input{
+   border: 0;
+   outline: 0;
+   background: #ffffff;
+   color: #405243;
+   padding: 10px 25px;
+   height: 60px;
+   border-radius: 30px;
+   flex: 1;
+   margin-right: 15px;
+   font-size: 15px;
+   font-weight: 600;
+}
+.card .search button{
+    border: 0;
+    outline: 0;
+    background: #ffffff;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.card .search button i{
+     font-size: 20px;
+}
+.card .search button i:hover{
+    color: rgb(250, 64, 64);
+}
+.weather i{
+    width: 170px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 4rem;
+}
+.weather h1{
+    font-size: 85px;
+    font-weight: 500;
+    font-family: "Yeseva One", serif;
+}
+.weather h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+    font-family: "Yeseva One", serif;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+.details .col{
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+.details .col i{
+    margin-bottom: 10px;
+    width: 100%;
+    margin-right: 20px;
+}
+.details .col p{
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.details .col span{
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.weather{
+    display: none;
+}
